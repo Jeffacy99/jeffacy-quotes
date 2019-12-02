@@ -1,87 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #333333;
-    background-color: lightblue;
+
+  
+  body {
+    font-size: 16px;
+    box-sizing: border-box;
+    letter-spacing: .025em;
+    background-color: grey;
   }
   
-  main {
-    padding: 5em 0;
-  }
-  
-  section {
-    padding: 3em 0;
-  }
-  
-  /* Text style */
-  h1, h2, h3 {
-    font-family: 'Amaranth', sans-serif;
-    letter-spacing: .075em;
-  }
-  
-  
-  /* First generator */
-  .nav-link {
-    text-transform: uppercase;
+  .btn {
     font-size: .75rem;
-    letter-spacing: .25em;
+    padding: .75em 1.5em;
+    letter-spacing: .075rem;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    text-transform: uppercase;
   }
   
-  .firstGenerator {
-    font-size: 1.25rem;
-    margin: .5em 0 1em 0;
+  .btn:hover {
+    color: #333333;
+    background-color: transparent;
   }
-  
-  /* Quote Tabs */
-  .nav-tabs {
-    border-bottom: none;
-  }
-  
-  .tab-content {
-    padding: 3em 0;
-    background-color: white;
-  }
-  
-  .nav-tabs .nav-link {
-    color: #ffff;
-    border: 1.25px solid #ffff;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-  }
-  
-  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    border: 1.25px solid #ffff;
-  }
-  
-  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border: 1.25px solid #ffff;
-  }
-  
-  .form-group {
-    margin: 1em auto;
-    max-width: 10em;
-  }
-  
-  .quoteInput {
-    padding: 1.25em 0;
-  }
-  
-  
-  .quoteLists {
-    text-align: left;
-  }
-  
-  ul.quoteLists > li {
-    padding-top: 1em;
-  }
-  
-  ul.quoteLists > li:first-child {
-    padding-top: 0;
-  }
-  
-  @media (min-width: 768px) {
-    .quoteInput {
-      padding: 2em 3em 1em 3em;
-    }
-  }
-  
+  body {
+    margin: 0;
+    background-color: #0f2862;
+    height: 100vh;
+}
+
+#quote-box {
+    max-width: 645px;
+}
+
+#text {
+    font-size: 30px;
+}
+
+#author::before {
+    content: "- ";
+}
+
+#author {
+    font-size: 25px;
+}
+
+#new-quote, #tweet-quote {
+    background-color:#0f2862;
+    border-color:#0f2862;
+}
