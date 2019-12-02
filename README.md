@@ -24,7 +24,7 @@ I am a young ambicious youth about programming and looking forward in being the 
 ## BDD
 This is an application for generating quotes.
   <img src="images/quote1.png>
-  <img src="images/quote2.png>
+  
   <img src="images/quote3.png>
 
 
