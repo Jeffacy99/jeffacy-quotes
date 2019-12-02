@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
   
-  body {
+  .body {
     font-size: 16px;
     box-sizing: border-box;
     letter-spacing: .025em;
