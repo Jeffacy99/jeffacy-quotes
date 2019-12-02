@@ -2,7 +2,7 @@
 >QUOTE GENERATOR
 
 ## PROJECT DESCRIPTION
->This is aNn application to generate quotes.
+>This is an application to generate quotes.
 
 >The live link to the site;https://jeffacy99.github.io/jeffacy-quotes/
 
@@ -23,9 +23,9 @@ I am a young ambicious youth about programming and looking forward in being the 
 
 ## BDD
 This is an application for generating quotes.
-  <img src="images/quote1.png>
+  (images/quote1.png)
   
-  <img src="images/quote3.png>
+  (images/quote3.png)
 
 
 
