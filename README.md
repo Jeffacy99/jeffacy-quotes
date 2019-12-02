@@ -1,10 +1,10 @@
 # PROJECT NAME
->DELANI STUDIO
+>QUOTE GENERATOR
 
 ## PROJECT DESCRIPTION
->This is a fictional landing page for a studio.
+>This is aNn application to generate quotes.
 
->The live link to the site;https: //jeffacy99.github.io/Delani-Studio/
+>The live link to the site;https://jeffacy99.github.io/jeffacy-quotes/
 
 
 ## AUTHOR'S INFORMATION
@@ -22,7 +22,7 @@ I am a young ambicious youth about programming and looking forward in being the 
 
 
 ## BDD
-This is fictional landing page for Delani studio which describes and explains about the services they offer and an elaboration who they are and how you can contact them.
+This is an application for generating quotes.
   <img src="images/quote1.png>
   <img src="images/quote2.png>
   <img src="images/quote3.png>
