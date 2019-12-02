@@ -1,27 +1,45 @@
-# QuotesApp
+# PROJECT NAME
+>DELANI STUDIO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## PROJECT DESCRIPTION
+>This is a fictional landing page for a studio.
 
-## Development server
+>The live link to the site;https: //jeffacy99.github.io/Delani-Studio/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## AUTHOR'S INFORMATION
+I am a young ambicious youth about programming and looking forward in being the best.Am a student at moringa school.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## SETUP INSTRUCTIONS
+>Text editer - I used Visual studio code & atom
+>Github account
+>Git installed in pc
+>Terminal in ubuntu
+>Search engine-chrome
+>OS-ubuntu
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## BDD
+This is fictional landing page for Delani studio which describes and explains about the services they offer and an elaboration who they are and how you can contact them.
+  <img src="images/quote1.png>
+  <img src="images/quote2.png>
+  <img src="images/quote3.png>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## TECHNOLOGIES USED
+>Html 5
+>CSS
+>Bootstrap
+>Angular
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## CONTACT INFORMATION
+For comments,addition information email at japhethmwania99@gmail.com
+
+## LICENSE AND COPYRIGHT
+License used is <a href="https://choosealicense.com/licenses/mit/">MIT License</a> <br>
+
+Copyright (c) **Japheth Mwania (JK Mwania) November 2019**
