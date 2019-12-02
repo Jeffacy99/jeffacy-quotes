@@ -17,30 +17,30 @@ const firstGenerator = document.querySelector('.firstGenerator');
 
 /* First Generator */
 const verbArray = [
-  "sleeping",
-  "rolling",
-  "eating Pho",
-  "playing Mario",
-  "watching Netflix",
-  "doodling"
+  'sleeping',
+  'rolling',
+  'eating Pho',
+  'playing Mario',
+  'watching Netflix',
+  'doodling'
 ];
 
 const placeArray = [
-  "on the top of Mt.Fuji",
-  "on the top of Eiffel Tower",
-  "on the beach",
-  "on the Moon",
-  "inside Space Shuttle"
+  'on the top of Mt.Fuji',
+  'on the top of Eiffel Tower',
+  'on the beach',
+  'on the Moon',
+  'inside Space Shuttle'
 ];
 
 const withWhoArray = [
-  "thirty kittens",
-  "twenty puppies",
-  "fifty rabbits",
-  "moose",
-  "bear",
-  "flock of sheep",
-  "pack of wolves"
+  'thirty kittens',
+  'twenty puppies',
+  'fifty rabbits',
+  'moose',
+  'bear',
+  'flock of sheep',
+  'pack of wolves'
 ];
 
 const generateQuote = () => {
@@ -58,7 +58,7 @@ const setGenerator = () => {
 
 firstGeneratorBtn.addEventListener('click', setGenerator);
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { AppComponent } from 'src/app/app.component.';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {

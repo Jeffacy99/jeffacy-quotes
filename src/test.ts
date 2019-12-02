@@ -27,7 +27,7 @@ const popularQuotesField = document.getElementById('popularQuotesField');
 const secondQuoteBtn = document.getElementById('secondQuoteBtn');
 const howManyQuoteTwo = document.getElementById('howManyQuoteTwo');
 const programQuotesField = document.getElementById('programQuotesField');
- 
+
 
 /* Popular Quotes */
 const popuparQuoteArray = [
@@ -78,7 +78,7 @@ const popuparQuoteArray = [
   {
     quote: 'Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.',
     name: 'Lao Tzu'
-  },  
+  },
   {
     quote: 'In order to be irreplaceable, one must always be different.',
     name: 'Coco Chanel'
@@ -249,29 +249,29 @@ const getIndexes = (quantity, quote) => {
   indexArrays = [];
   let uniqueIndexes = [];
 
-  while(indexArrays.length < quantity.value) {
+  while (indexArrays.length < quantity.value) {
     // Add number to array
     const selectIndexes = () => {
       let number = Math.floor(Math.random() * quote.length);
       indexArrays.push(number);
     };
-    
+
     selectIndexes();
     uniqueIndexes = Array.from(new Set(indexArrays));
     indexArrays = uniqueIndexes;
-  } 
+  }
 };
 
 /* Generate quote */
 const setQuote = (whereTo, quateArray, quantity) => {
   // Clear all the previous quotes
-  if(whereTo.childElementCount > 0) {
+  if (whereTo.childElementCount > 0) {
     whereTo.innerHTML = '';
   }
 
   // Generate ul element
   const quoteLists = document.createElement('ul');
-  quoteLists.setAttribute('class','quoteLists');
+  quoteLists.setAttribute('class', 'quoteLists');
   whereTo.append(quoteLists);
 
   // Generate quote to DOM
@@ -288,7 +288,7 @@ const setQuote = (whereTo, quateArray, quantity) => {
   getIndexes(quantity, quateArray);
 
   // Generate DOM element for each quote
-  for(let index of indexArrays) {
+  for (let index of indexArrays) {
     generateQuote(index);
   }
 };
