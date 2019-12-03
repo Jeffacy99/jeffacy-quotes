@@ -58,9 +58,9 @@ const setGenerator = () => {
 
 firstGeneratorBtn.addEventListener('click', setGenerator);
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from 'src/app/app.component.ts';
+import { AppComponent } from 'src/app/app.component';
 
-describe('AppComponent', () => {
+describe('app.component', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
