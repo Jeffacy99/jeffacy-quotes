@@ -1,0 +1,33 @@
+
+
+<!-- Quotes -->
+<!-- <div>
+  <h1>Quotes</h1>
+  <hr>
+  <ul>
+      <li *ngFor='let quote of quotes'>
+        {{quote.name}}
+      </li>
+  </ul>
+</div> -->
+<div class="row">
+
+<div class="col-md-6">
+<div class="card" *ngFor='let quote of quotes;let i = index'>
+  <div class="card-body" >
+    <h5 class="card-title font-weight-bold" > {{quote.author}}</h5>
+    <p class="card-text lead font-italic"> {{quote.message}}</p>
+    <p> </p>
+<footer class="blockquote-footer">Posted  <cite title="Source Title">{{quote.date|date}}</cite></footer>
+<br>
+    <app-votes (voteQuotes)='deletedQuote($event, i)'></app-votes>
+  </div>
+
+</div>
+
+
+</div>
+<div class="col-md-6">
+      <app-quote-form class="col-sm-3 " (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+</div>
